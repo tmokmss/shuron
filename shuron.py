@@ -1,4 +1,4 @@
-#coding: cp932
+#coding: utf-8
 import datetime as d
 import fortune as f
 
@@ -26,7 +26,7 @@ if (__name__ == "__main__"):
   
   f.db_analyze('db.txt')
   #body, author = f.get_random_fortune()
-  ngwords = ["—ö","ˆ¤","^","‹à","ˆ«","€","—","’j","í‘ˆ","—F","©—R","”„","”ƒ","—ğj","–@—¥"]
+  ngwords = ["æ‹","æ„›","ï¼","é‡‘","æ‚ª","æ­»","å¥³","ç”·","æˆ¦äº‰","å‹","è‡ªç”±","å£²","è²·","æ­´å²","æ³•å¾‹"]
   body, author = f.get_random_fortune_exclude(ngwords)
 
   with open("shuron.properties", 'w') as f:

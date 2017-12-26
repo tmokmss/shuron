@@ -23,10 +23,10 @@ if (__name__ == "__main__"):
   diff = (target - d.date.today()).days
   orgdiff = (target-start).days
   rate = 1-diff*1./orgdiff
-  
+
   f.db_analyze('db.txt')
   #body, author = f.get_random_fortune()
-  ngwords = ["恋","愛","／","金","悪","死","女","男","戦争","友","自由","売","買","歴史","法律"]
+  ngwords = ["恋","愛","／","金","悪","死","女","男","戦争","友","自由","売","買","歴史","法律","食"]
   body, author = f.get_random_fortune_exclude(ngwords)
 
   with open("shuron.properties", 'w') as f:

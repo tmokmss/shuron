@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+random	E:\OneDrive\Documents\python\shuron\fortune.py	/^import random$/;"	namespace	line:2
+db	E:\OneDrive\Documents\python\shuron\fortune.py	/^db = []$/;"	variable	line:3
+db_analyze	E:\OneDrive\Documents\python\shuron\fortune.py	/^def db_analyze(fname):$/;"	function	line:5
+preprocess	E:\OneDrive\Documents\python\shuron\fortune.py	/^def preprocess(line):$/;"	function	line:31
+get_random_fortune	E:\OneDrive\Documents\python\shuron\fortune.py	/^def get_random_fortune():$/;"	function	line:37
+get_random_fortune_exclude	E:\OneDrive\Documents\python\shuron\fortune.py	/^def get_random_fortune_exclude(ngwords):$/;"	function	line:43
+shuron	E:\OneDrive\Documents\python\shuron\README.md	/^# shuron$/;"	function	line:1
+d	E:\OneDrive\Documents\python\shuron\shuron.py	/^import datetime as d$/;"	namespace	line:2
+f	E:\OneDrive\Documents\python\shuron\shuron.py	/^import fortune as f$/;"	namespace	line:3
+progress	E:\OneDrive\Documents\python\shuron\shuron.py	/^def progress(ratio):$/;"	function	line:5
+start	E:\OneDrive\Documents\python\shuron\shuron.py	/^  start = d.date(2017,11,1)$/;"	variable	line:21
+target	E:\OneDrive\Documents\python\shuron\shuron.py	/^  target = d.date(2018,2,5)$/;"	variable	line:22
+diff	E:\OneDrive\Documents\python\shuron\shuron.py	/^  diff = (target - d.date.today()).days$/;"	variable	line:23
+orgdiff	E:\OneDrive\Documents\python\shuron\shuron.py	/^  orgdiff = (target-start).days$/;"	variable	line:24
+rate	E:\OneDrive\Documents\python\shuron\shuron.py	/^  rate = 1-diff*1.\/orgdiff$/;"	variable	line:25
+ngwords	E:\OneDrive\Documents\python\shuron\shuron.py	/^  ngwords = ["恋","愛","／","金","悪","死","女","男","戦争","友","自由","売","買","歴史","法律"]$/;"	variable	line:29
